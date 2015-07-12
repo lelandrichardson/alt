@@ -69,10 +69,5 @@
     "flux",
     "react",
     "unidirectional"
-  ],
-  "config": {
-    "ghooks": {
-      "pre-push": "npm run lint"
-    }
-  }
+  ]
 }
