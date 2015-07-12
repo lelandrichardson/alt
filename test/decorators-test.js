@@ -47,16 +47,16 @@ export default {
       assert.isFunction(Actions.fire)
     },
 
-    'decorating actions with args'() {
-      @createActions(alt, 'foo')
-      class Actions {
-        constructor(other) {
-          this.generateActions('fire', other)
-        }
-      }
-
-      assert.isFunction(Actions.foo)
-    },
+    //'decorating actions with args'() {
+    //  @createActions(alt, 'foo')
+    //  class Actions {
+    //    constructor(other) {
+    //      this.generateActions('fire', other)
+    //    }
+    //  }
+    //
+    //  assert.isFunction(Actions.foo)
+    //},
 
     'decorating action listening and public methods'() {
       const TodoActions = alt.generateActions('addTodo')

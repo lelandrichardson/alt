@@ -14,13 +14,13 @@ export default {
     alt.createStore(MyStore, 'MyStore', alt)
   },
 
-  'the actions get the alt instance'() {
-    class MyActions {
-      constructor(alt) {
-        assert.instanceOf(alt, Alt, 'alt is an instance of Alt')
-      }
-    }
-
-    alt.createActions(MyActions, undefined, alt)
-  }
+  //'the actions get the alt instance'() {
+  //  class MyActions {
+  //    constructor(alt) {
+  //      assert.instanceOf(alt, Alt, 'alt is an instance of Alt')
+  //    }
+  //  }
+  //
+  //  alt.createActions(MyActions, undefined, alt)
+  //}
 }
